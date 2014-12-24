@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Clément Delafargue - RSS feed</title>
-    <link href="http://blog.clement.delafargue.name/atom.xml" rel="self" />
-    <link href="http://blog.clement.delafargue.name" />
-    <id>http://blog.clement.delafargue.name/atom.xml</id>
+    <title>zhfu's blog RSS feed</title>
+    <link href="http://zhfu.github.io/atom.xml" rel="self" />
+    <link href="http://zhfu.github.io" />
+    <id>http://zhfu.github.io/atom.xml</id>
     <author>
-        <name>Clément Delafargue</name>
-        <email>clement+blog@delafargue.name</email>
+        <name>zhfu</name>
+        <email>fukirk@qq.com</email>
     </author>
     <updated>2012-10-21T00:00:00Z</updated>
     <entry>
     <title>Blog deployment system</title>
-    <link href="http://blog.clement.delafargue.name/posts/2012-10-21-blog-deployment-system.html" />
-    <id>http://blog.clement.delafargue.name/posts/2012-10-21-blog-deployment-system.html</id>
+    <link href="http://zhfu.github.io/posts/2012-10-21-blog-deployment-system.html" />
+    <id>http://zhfu.github.io/posts/2012-10-21-blog-deployment-system.html</id>
     <published>2012-10-21T00:00:00Z</published>
     <updated>2012-10-21T00:00:00Z</updated>
     <summary type="html"><![CDATA[<article>
 <header>
 <h1>Blog deployment system</h1>
 <p>by <em>Clément Delafargue</em> on <strong>October 21, 2012</strong></p>
-<p>Tagged as: <a href="http://blog.clement.delafargue.name/tags/misc.html">misc</a>.</p>
+<p>Tagged as: <a href="http://zhfu.github.io/tags/misc.html">misc</a>.</p>
 </header>
 
 <section>
