@@ -1,11 +1,14 @@
 all: build
 
-build: hakyll
-	./hakyll build
+cabal.sandbox.config:
+	cabal sandbox init --sandbox=../hakyll-sandbox
 
-hakyll: hakyll.hs
-	ghc --make hakyll.hs
-	./hakyll clean
+build: dist/build/blog/blog
+	./dist/build/blog/blog build
+
+dist/build/blog/blog: Main.hs cabal.sandbox.config
+	cabal build
+	./dist/build/blog/blog clean
 
 new:
 	@./new_post.sh
